@@ -1,3 +1,14 @@
 # Better React Boilerplate
 
-React, Redux, Webpack, react-css-modules, normalize.css template.
+React, Redux, full boilerplate
+
+## Stack
+
+- React
+  - react-css-modules
+  - Redux
+- Webpack
+- normalize.css
+- ESLint
+  - StandardJS base
+  - using prettier and pretter-eslint
