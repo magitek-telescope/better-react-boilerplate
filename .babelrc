@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "useBuiltIns": false,
+        "targets": { "ie": 9 },
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "react-css-modules"
+  ]
+
+}

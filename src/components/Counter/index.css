@@ -1,0 +1,45 @@
+.count {
+  text-align: center;
+  font-family: Consolas, Monaco;
+}
+
+.flex {
+  display: flex;
+}
+
+.button,
+.button-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 60px;
+  height: 40px;
+  outline: none;
+  font-family: Consolas, Monaco;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button-inner {
+  opacity: 0.6;
+}
+
+.button-inner:hover {
+  opacity: 1.0;
+}
+
+.increment {
+  color: #10C4F9;
+}
+
+.decrement {
+  color: #F75E54;
+}
