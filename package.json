@@ -8,6 +8,7 @@
   "scripts": {
     "start": "yarn serve",
     "serve": "webpack-dev-server --inline --hot --config ./build/webpack.dev.config.js -d --open --history-api-fallback",
+    "build": "webpack --config ./build/webpack.prod.config.js",
     "lint": "eslint ./src/**/*.js",
     "fmt": "prettier-eslint './src/**/*.js' --write",
     "eslint": "eslint"
