@@ -6,15 +6,13 @@ import './index.css'
 class Counter extends Component {
   constructor (props) {
     super(props)
-    this.handleIncrement = this.handleIncrement.bind(this)
-    this.handleDecrement = this.handleDecrement.bind(this)
   }
 
-  handleIncrement () {
+  handleIncrement = () => {
     this.props.actions.incrementCount()
   }
 
-  handleDecrement () {
+  handleDecrement = () => {
     this.props.actions.decrementCount()
   }
 
