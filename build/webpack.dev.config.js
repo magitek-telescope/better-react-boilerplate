@@ -2,6 +2,7 @@ const baseConfig = require('./webpack.base.config')
 const merge = require('webpack-merge')
 const webpack = require('webpack')
 const path = require('path')
+const Dotenv = require('dotenv-webpack');
 
 module.exports = merge(baseConfig, {
   devServer: {
@@ -11,8 +12,9 @@ module.exports = merge(baseConfig, {
     open: true
   },
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': '"development"'
+    new Dotenv({
+      path: './.env',
+      safe: true
     })
   ]
 })
